@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="UF$=BI`|0.puLMaO=h+L" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="8Z+ge=xwI}7aS+;KErKr"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="2Eb6{:o^+@e?Jb+HQ|r{"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="eX]a]90=hQ1Jum`}!RKt"/></value><value name="B"><shadow type="math_number" id="3?HeBLIc7n}pk}czr^jf"><field name="NUM">16</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="67s;#kP1rnq$ihJu;b?;"><field name="LEDS">`
+        # # . # # 
+        # # . # # 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="QuL=d1Q[?p28{78^+4$p"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . . . # 
+        # . # . # 
+        # . # . #
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id=").4JY2!lT46D11@c?/tH"><comment>clear screen and wait</comment><next><block type="device_pause" id="S+D*f(fm{0z(ZtNTL3(*"><value name="pause"><shadow type="timePicker" id="gF/iokci?h,CIT#V[$fi"><field name="ms">3000</field></shadow></value></block></next></block></statement></block></statement></block></xml>
